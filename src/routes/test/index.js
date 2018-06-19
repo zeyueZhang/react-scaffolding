@@ -15,8 +15,8 @@ class MyTest extends Component {
     return (
       <div className={styles.test}>
         <h1>{value}</h1>
-        <button onClick={inc}>+</button>
-        <button onClick={dec}>-</button>
+        <button onClick={inc} className={styles.incIcon}>+</button>
+        <button onClick={dec} className={styles.decIcon}>-</button>
       </div>
     );
   }

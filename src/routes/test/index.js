@@ -29,7 +29,6 @@ class MyTest extends Component {
         <button onClick={dec} className={styles.decIcon}>-</button>
         <div><Link to={routesMap.a}>A页面</Link></div>
         <div><Link to={routesMap.b}>B页面</Link></div>
-
       </div>
     );
   }
